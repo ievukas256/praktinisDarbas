@@ -3,3 +3,7 @@
 3. suskaiciuoti staciojo trikampio izambines(pries statuji kampa esanti staciojo trikampio krastine) ilgi 
    jei kitu krastiniu ilgiai yra 10 ir 15, rez i kintamaji
 4. suskaiciuoti uzduotyse 1-3 gautu kintamuju suma ir vidurki , isvesti rez kaip pavyzdi*/
+
+double r = 6371;
+double area = 4 * Math.PI * r * r;
+Console.WriteLine($"Rutulio plotas: {area}km");
